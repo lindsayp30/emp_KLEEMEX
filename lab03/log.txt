@@ -1,0 +1,3 @@
+### 12/16/2021 in class
+- make sure plan incorporates repetition 
+- utilize currentTimeMilis as a means of 
