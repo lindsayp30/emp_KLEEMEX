@@ -1,8 +1,0 @@
-Thurs 12/16/2021 in Class
-- Mostly discussion to clear up misconceptions and get on the right path
-- Plan should incorporate (a lot of) repetition
-- Many variables such as the length of the array and the luckiest/unluckiest occurrences should be tested.
-- Instead of counting how many times the for loop runs, utilize currentTimeMilis, which measures the difference in start and end time
-
-Thurs 12/16/2021 after School
-- Formulated plan (viewable at plan.txt)
