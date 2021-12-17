@@ -1,0 +1,10 @@
+EMPIRICAL: numerical
+
+Ideas to Test Which is Faster: BinSearch or LinSearch
+- Count the number of steps each method takes
+- Measure it amount of time it takes for the method to run via currentTimeMillis
+
+ESSENTIAL: REPETITION
+- measure time via currentTimeMillis
+
+N: Unnecessary code can make the run time longer.
