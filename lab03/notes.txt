@@ -1,4 +1,4 @@
-### EMPIRICAL: numerical
+EMPIRICAL: numerical
 
 - System.out.println every step-ish to follow along 
 - ESSENTIAL: REPETITION 
