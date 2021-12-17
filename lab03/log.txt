@@ -1,3 +1,4 @@
-### 12/16/2021 in class
-- make sure plan incorporates repetition 
-- utilize currentTimeMilis as a means of 
+12/16/2021 in class
+- mostly discussion to clear up any misconceptions and direct our plan towards the right direction
+- plan should incorporate repetition 
+- when finding a means of determining that binary search is faster than linear search, instead of thinking of how many times the for loop runs, utilize currentTimeMilis which measures the difference in start and end time
