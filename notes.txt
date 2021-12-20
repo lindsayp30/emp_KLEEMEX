@@ -8,3 +8,7 @@ ESSENTIAL: REPETITION
 - measure time via currentTimeMillis
 
 N: Unnecessary code can make the run time longer.
+
+PIAZZA:
+- to make large numbers more readable: utilize underscores 
+example: 1_000_000
