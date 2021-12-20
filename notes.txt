@@ -17,6 +17,3 @@ Suggestion from Kosta:
 Utilize a for loop in our main method to efficiently conduct many trials.
 
 Small numbers (like 1,000) get searched by LinSearch and BinSearch lightning fast
-
-With the encounter of java heap space, we can do -Xmx[size] to increase size allocated
-$ java -Xmx[size] ClassName
