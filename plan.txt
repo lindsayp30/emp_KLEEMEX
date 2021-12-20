@@ -1,13 +1,13 @@
 Plan:
 1) Comment out unnecessary parts of code so that both methods are on the same playing field
  - Definition of unnecessary code: Code that does not contribute towards the goal of finding the target
-2) Make a table consisting of the size of the array and the amount of time it takes
+2) Record table consisting of the size of the array and the amount of time it takes
  - The table is our collection of data.
-3) There will be 4 different sizes of arrays: 10, 100, 1000, and 10000
+3) There will be 3 different sizes of arrays: 10_000_000, 25_000_000, and 50_000_000
  - See how BinSearch and LinSearch compare when the arrays have less or more elements.
-4) REPETITION: Each trial will be conducted 5 times (for both BinSearch and LinSearch), and the average will be the time taken. This is to prevent from any run-through with external forces in play.
+4) REPETITION: Each trial will be conducted 50 times (for both BinSearch and LinSearch), and the average will be the time taken. This is to prevent from any run-through with external forces in play.
 
-- Changing the location of the target would change the amount of time it takes to find it. We are going to keep the location constant.
+- Changing the location of the target would change the amount of time it takes to find it. We will compare the best care and worse case for each method. 
 
 To use currentTimeMillis:
 - public static long currentTimeMillis()

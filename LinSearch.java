@@ -1,7 +1,7 @@
-// Clyde "Thluffy" Sinclair
-// APCS1 pd0
+// Kleemex -- Lindsay Phung, May Qiu, Xinqing Lin
+// APCS1 pd7
 // HW48 -- implementing linear and binary search on an ArrayList of Comparables
-// 2021-12-16r
+// 2021-12-16
 
 /**
    class LinSearch
@@ -37,7 +37,7 @@ public class LinSearch
   {
     String output = "[ ";
 
-    for( Object o : arr )
+    for( Object o : arr )   
       output += o + ", ";
 
     output = output.substring( 0, output.length()-2 ) + " ]";
@@ -49,9 +49,11 @@ public class LinSearch
   //main method for testing
   public static void main ( String[] args )
   {
-
+/*
     //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
     System.out.println("\nNow testing linSearch on int array...");
+
 
     //Declare an array of Comparables and initialize it using ints
     //   Each int will be autoboxed to class Integer,
@@ -84,10 +86,7 @@ public class LinSearch
     //search for "lychee" in array
     System.out.println( linSearch(sArr,"lychee") );
     //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-    /*----------------------------------------------------
-      ----------------------------------------------------*/
-
+*/
   }//end main()
 
 }//end class LinSearch

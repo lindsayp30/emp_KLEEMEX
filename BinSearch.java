@@ -1,5 +1,5 @@
-// Clyde "Thluffy" Sinclair
-// APCS1 pd0
+// Kleemex -- Lindsay Phung, May Qiu, Xinqing Lin
+// APCS1 pd7
 // HW48 -- implementing linear and binary search on an ArrayList of Comparables
 // 2021-12-16r
 
@@ -108,10 +108,9 @@ public class BinSearch
 
   //main method for testing
   public static void main ( String[] args ) {
-
+    /*
     //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     System.out.println("\nNow testing binSearch on Comparable array...");
-
     //Declare and initialize array of Comparables
     Comparable[] iArr = { 2, 4, 6, 8, 6, 42 };
     printArray( iArr );
@@ -148,7 +147,7 @@ public class BinSearch
     //search for 43 in array
     System.out.println( binSearch(iArr3,43) );
 
-
+    */
     //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   }//end main()

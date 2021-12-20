@@ -8,5 +8,13 @@ Thurs 12/16/2021 after School
 - Formulated plan (viewable at plan.txt)
 
 Fri 12/17/2021 in Class
-- Accepted issues from other teams concerning our plan 
+- Accepted issues from other teams concerning our plan
+- Edited plan according to suggestions
 - (Cleared up misconception) Moved files in dir lab03
+
+Sun 12/19/2021 at Home
+- Solved remaining issues
+- Put code in SearchDriver
+  - with BinSearch, no matter how small or large the array is, we end up with 0 ms
+  - made helper methods (testLinSearch and testBinSearch to condense code)
+  - put best and worst cases for 10_000_000, 25_000_000, 50_000_000
