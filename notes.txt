@@ -18,4 +18,4 @@ PIAZZA:
 Suggestion from Kosta:
 - Utilize a for loop in our main method to efficiently conduct many trials.
 
-N: BinSearch is very fast
+N: BinSearch is very fast. The work-around around the 0ms results is to find the elapsed time of many trials. 

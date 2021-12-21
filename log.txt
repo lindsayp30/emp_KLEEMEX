@@ -22,8 +22,9 @@ Sun 12/19/2021 at Home
 Mon 12/20/2021 in Class 
 - Discussed about the issue of getting 0 ms for BinSearch no matter the size of the array
   - Some groups have reported to have discovered this as well
+  - SOLUTION: Find the elapsed time for multiple trials instead of just one
 - Was told that notes.txt and log.txt have to have headings
-  - We already have such headings but plan on cleaning it up 
+  - We already have such headings but plan on cleaning it up
 
 Mon 12/20/2021 at Home
-- Cleaned up / wrote in README.txt, notes.txt, log.txt, and plan.txt 
+- Cleaned up / wrote in README.txt, notes.txt, log.txt, and plan.txt

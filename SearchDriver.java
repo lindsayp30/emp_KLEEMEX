@@ -23,84 +23,84 @@ public class SearchDriver {
   }
 
   public static void main(String[] args){
-    System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
-    Comparable[] Arr0 = new Comparable[100_000];
-    for (int i = 0; i < 10_000_000; i++) { //create and fills an array with 10,000,000 consecutive integers
-        Arr1[i] = i;
-    }
+      System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
-    System.out.println("Length of Array: 10,000,000 ");
-    System.out.println("Worse Case: ");
-    System.out.print("LinSearch (Last Index)... ");
+      Comparable[] Arr0 = new Comparable[1_000_000];
+      for (int i = 0; i < 1_000_000; i++) { //create and fills an array with 100,000 consecutive integers
+          Arr0[i] = i;
+      }
 
-    long avgLin10mil = testLinSearch(Arr1, 9_999_999);
-    System.out.println(avgLin10mil);
+      System.out.println("Length of Array: 1,000,000 ");
+      System.out.println("Amount of Time it Takes to Run 500 Trials: Worse Case Scenario");
+      System.out.print("LinSearch (Last Index)... ");
 
-    System.out.print("BinSearch (Last Index)... ");
+      long Lin100k = testLinSearch(Arr0, 999_999);
+      System.out.println(Lin100k);
 
-    long avgBin10mil = testBinSearch(Arr1, 9_999_999);
-    System.out.println(avgBin10mil);
+      System.out.print("BinSearch (Last Index)... ");
 
+      long Bin100k = testBinSearch(Arr0, 999_999);
+      System.out.println(Bin100k);
 
       System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
       Comparable[] Arr1 = new Comparable[10_000_000];
-      for (int i = 0; i < 10_000_000; i++) { //create and fills an array with 10,000,000 consecutive integers
+      for (int i = 0; i < 10_000_000; i++) { ////create and fills an array with 10,000,000 consecutive integers
           Arr1[i] = i;
       }
 
       System.out.println("Length of Array: 10,000,000 ");
-      System.out.println("Worse Case: ");
+      System.out.println("Amount of Time it Takes to Run 500 Trials: Worse Case Scenario");
       System.out.print("LinSearch (Last Index)... ");
 
-      long avgLin10mil = testLinSearch(Arr1, 9_999_999);
-      System.out.println(avgLin10mil);
+      long Lin10mil = testLinSearch(Arr1, 9_999_999);
+      System.out.println(Lin10mil);
 
       System.out.print("BinSearch (Last Index)... ");
 
-      long avgBin10mil = testBinSearch(Arr1, 9_999_999);
-      System.out.println(avgBin10mil);
+      long Bin10mil = testBinSearch(Arr1, 9_999_999);
+      System.out.println(Bin10mil);
 
       System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
       Comparable[] Arr2 = new Comparable[25_000_000];
-      for (int i = 0; i < 25_000_000; i++) {
+      for (int i = 0; i < 25_000_000; i++) { ////create and fills an array with 25,000,000 consecutive integers
           Arr2[i] = i;
       }
 
       System.out.println("Length of Array: 25,000,000 ");
-      System.out.println("Worse Case: ");
+      System.out.println("Amount of Time it Takes to Run 500 Trials: Worse Case Scenario");
       System.out.print("LinSearch (Last Index)... ");
 
-      long avgLin25mil = testLinSearch(Arr2, 24_999_999);
-      System.out.println(avgLin25mil);
+      long Lin25mil = testLinSearch(Arr2, 24_999_999);
+      System.out.println(Lin25mil);
 
       System.out.print("BinSearch (Last Index)... ");
 
-      long avgBin25mil = testBinSearch(Arr2, 24_999_999);
-      System.out.println(avgBin25mil);
+      long Bin25mil = testBinSearch(Arr2, 24_999_999);
+      System.out.println(Bin25mil);
 
-      System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+      System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
       Comparable[] Arr3 = new Comparable[50_000_000];
-      for (int i = 0; i < 50_000_000; i++) {
+      for (int i = 0; i < 50_000_000; i++) { ////create and fills an array with 50,000,000 consecutive integers
           Arr3[i] = i;
       }
 
       System.out.println("Length of Array: 50,000,000 ");
-      System.out.println("Worse Case: ");
+      System.out.println("Amount of Time it Takes to Run 500 Trials: Worse Case Scenario");
       System.out.print("LinSearch (Last Index)... ");
 
-      long avgLin50mil = testLinSearch(Arr3, 49_999_999);
-      System.out.println(avgLin50mil);
+      long Lin50mil = testLinSearch(Arr3, 49_999_999);
+      System.out.println(Lin50mil);
 
       System.out.print("BinSearch (Last Index)... ");
 
-      long avgBin50mil = testBinSearch(Arr3, 49_999_999);
-      System.out.println(avgBin50mil);
+      long Bin50mil = testBinSearch(Arr3, 49_999_999);
+      System.out.println(Bin50mil);
 
-      System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+      System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
 
   }
