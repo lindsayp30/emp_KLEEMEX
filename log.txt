@@ -1,3 +1,8 @@
+Kleemex -- Lindsay Phung, May Qiu, Xinqing Lin
+APCS
+L03: Get Empirical / log
+2021-12-20
+
 Thurs 12/16/2021 in Class
 - Mostly discussion to clear up misconceptions and get on the right path
 - Plan should incorporate (a lot of) repetition
