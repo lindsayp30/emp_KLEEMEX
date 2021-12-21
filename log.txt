@@ -4,7 +4,7 @@ Thurs 12/16/2021 in Class
 - Many variables such as the length of the array and the luckiest/unluckiest occurrences should be tested.
 - Instead of counting how many times the for loop runs, utilize currentTimeMilis, which measures the difference in start and end time
 
-Thurs 12/16/2021 after School
+Thurs 12/16/2021 at Home
 - Formulated plan (viewable at plan.txt)
 
 Fri 12/17/2021 in Class
@@ -18,3 +18,12 @@ Sun 12/19/2021 at Home
   - with BinSearch, no matter how small or large the array is, we end up with 0 ms
   - made helper methods (testLinSearch and testBinSearch to condense code)
   - put best and worst cases for 10_000_000, 25_000_000, 50_000_000
+
+Mon 12/20/2021 in Class 
+- Discussed about the issue of getting 0 ms for BinSearch no matter the size of the array
+  - Some groups have reported to have discovered this as well
+- Was told that notes.txt and log.txt have to have headings
+  - We already have such headings but plan on cleaning it up 
+
+Mon 12/20/2021 at Home
+- Cleaned up / wrote in README.txt, notes.txt, log.txt, and plan.txt 
