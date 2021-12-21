@@ -24,7 +24,6 @@ Mon 12/20/2021 in Class
   - Some groups have reported to have discovered this as well
   - SOLUTION: Find the elapsed time for multiple trials instead of just one
 - Was told that notes.txt and log.txt have to have headings
-  - We already have such headings but plan on cleaning it up
 
 Mon 12/20/2021 at Home
-- Cleaned up / wrote in README.txt, notes.txt, log.txt, and plan.txt
+- Cleaned up / wrote in README.md, notes.txt, log.txt, and plan.txt
