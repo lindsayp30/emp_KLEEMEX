@@ -5,7 +5,7 @@ Plan:
  - The table is our collection of data.
 3) There will be 3 different sizes of arrays: 10_000_000, 25_000_000, and 50_000_000
  - See how BinSearch and LinSearch compare when the arrays have less or more elements.
-4) REPETITION: Each trial will be conducted 50 times (for both BinSearch and LinSearch), and the average will be the time taken. This is to prevent from any run-through with external forces in play.
+4) REPETITION: Each trial will be conducted 50 times (for both BinSearch and LinSearch), and the acccumulated time will be recorded. (We originally decided to record the average of the times taken, but we were unable to have a BinSearch that would be more than 0 ms. With the accumulated time, we hope to be able to record a BinSearch > 0.
 
 - Changing the location of the target would change the amount of time it takes to find it. We will compare the worse case for each method relative to the array size.
 
