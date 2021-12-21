@@ -23,6 +23,24 @@ public class SearchDriver {
   }
 
   public static void main(String[] args){
+      System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+      System.out.println("Ignore this trial");
+      Comparable[] ArrTrash = new Comparable[10];
+      for (int i = 0; i < 10; i++) { //create and fills an array with 100,000 consecutive integers
+          Arr0[i] = i;
+      }
+
+      System.out.println("Length of Array: 10 ");
+      System.out.println("Amount of Time it Takes to Run 500 Trials: Worse Case Scenario");
+      System.out.print("LinSearch (Last Index)... ");
+
+      long Lin10 = testLinSearch(ArrTrash, 9);
+      System.out.println(Lin10);
+
+      System.out.print("BinSearch (Last Index)... ");
+
+      long Bin10 = testBinSearch(ArrTrash, 9);
+      System.out.println(Bin10);
 
       System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
