@@ -1,19 +1,21 @@
-EMPIRICAL: numerical
+EMPIRICAL:
+- numerical
 
 Ideas to Test Which is Faster: BinSearch or LinSearch
 - Count the number of steps each method takes
 - Measure it amount of time it takes for the method to run via currentTimeMillis
 
-ESSENTIAL: REPETITION
+ESSENTIAL TO REMEMBER:
+- REPETITION
 - measure time via currentTimeMillis
 
 N: Unnecessary code can make the run time longer.
 
 PIAZZA:
 - to make large numbers more readable: utilize underscores
-example: 1_000_000
+  - example: 1_000_000
 
 Suggestion from Kosta:
-Utilize a for loop in our main method to efficiently conduct many trials.
+- Utilize a for loop in our main method to efficiently conduct many trials.
 
-Small numbers (like 1,000) get searched by LinSearch and BinSearch lightning fast
+N: BinSearch is very fast
