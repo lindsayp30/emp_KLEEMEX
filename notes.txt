@@ -1,3 +1,8 @@
+Kleemex -- Lindsay Phung, May Qiu, Xinqing Lin
+APCS
+L03: Get Empirical / notes
+2021-12-20
+
 EMPIRICAL:
 - numerical
 
