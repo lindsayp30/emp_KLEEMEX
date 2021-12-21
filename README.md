@@ -38,3 +38,4 @@ BinSearch (Last Index)... 0
 
 ### Conclusions
 - BinSearch is indeed faster than LinSearch relative to all of the array sizes.
+- Upon discovering that the first test utilizing BinSearch yields a ms greater than 0 while preceeding test cases with greater sized arrays yield a ms of 0, we think that this is due to a sort of initial processing. As David Chen has commented on Piazza, this may be just the program initially loading the class. The time spent would explain how there is a ms greater than 0 for all first test runs.  
