@@ -17,15 +17,18 @@ Amount of Time it Takes to Run 500 Trials: Worse Case Scenario
 LinSearch (Last Index)... 588
 BinSearch (Last Index)... 1
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Length of Array: 10,000,000
 Amount of Time it Takes to Run 500 Trials: Worse Case Scenario
 LinSearch (Last Index)... 7860
 BinSearch (Last Index)... 0
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Length of Array: 25,000,000
 Amount of Time it Takes to Run 500 Trials: Worse Case Scenario
 LinSearch (Last Index)... 20379
 BinSearch (Last Index)... 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Length of Array: 50,000,000
 Amount of Time it Takes to Run 500 Trials: Worse Case Scenario
