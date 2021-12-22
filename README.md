@@ -12,27 +12,30 @@ Each Run 500 Times with Accumulated Time Recorded for the Length of the (500) Tr
 
 ### Results
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Length of Array: 1,000,000
+Ignore this trial
+Length of Array: 10
 Amount of Time it Takes to Run 500 Trials: Worse Case Scenario
-LinSearch (Last Index)... 588
+LinSearch (Last Index)... 1
 BinSearch (Last Index)... 1
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Length of Array: 1,000,000
+Amount of Time it Takes to Run 500 Trials: Worse Case Scenario
+LinSearch (Last Index)... 575
+BinSearch (Last Index)... 0
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Length of Array: 10,000,000
 Amount of Time it Takes to Run 500 Trials: Worse Case Scenario
 LinSearch (Last Index)... 7860
 BinSearch (Last Index)... 0
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Length of Array: 25,000,000
 Amount of Time it Takes to Run 500 Trials: Worse Case Scenario
-LinSearch (Last Index)... 20379
+LinSearch (Last Index)... 21408
 BinSearch (Last Index)... 0
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Length of Array: 50,000,000
 Amount of Time it Takes to Run 500 Trials: Worse Case Scenario
-LinSearch (Last Index)... 40888
+LinSearch (Last Index)... 41526
 BinSearch (Last Index)... 0
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

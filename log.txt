@@ -24,7 +24,7 @@ Sun 12/19/2021 at Home
   - made helper methods (testLinSearch and testBinSearch to condense code)
   - put best and worst cases for 10_000_000, 25_000_000, 50_000_000
 
-Mon 12/20/2021 in Class 
+Mon 12/20/2021 in Class
 - Discussed about the issue of getting 0 ms for BinSearch no matter the size of the array
   - Some groups have reported to have discovered this as well
   - SOLUTION: Find the elapsed time for multiple trials instead of just one
@@ -32,3 +32,6 @@ Mon 12/20/2021 in Class
 
 Mon 12/20/2021 at Home
 - Cleaned up / wrote in README.md, notes.txt, log.txt, and plan.txt
+
+Tues 12/21/2021 in Class
+- Decided to include a trial in the beginning of our code to be ignored as a workaround to the initial lag problem

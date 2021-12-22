@@ -23,4 +23,21 @@ PIAZZA:
 Suggestion from Kosta:
 - Utilize a for loop in our main method to efficiently conduct many trials.
 
-N: BinSearch is very fast. The work-around around the 0ms results is to find the elapsed time of many trials. 
+N: BinSearch is very fast. The work-around around the 0ms results is to find the elapsed time of many trials.
+
+GALLERY TOUR:
+- Team Frogs
+  - Used an average of 100 trials
+  - Target location: not in array
+  - Guess as to why there is an initial lag: program just started
+
+- Team Compile Time Error
+  - Runs binTrial using a while loop until the number is significant (>0)
+  - Multiplies linTrial value by the number of times binTrial is ran
+  - The number of trials ran is RELATIVE to binTrial
+
+- Team BPK
+  - Runs 1000 trials via while loop, prints both the average and the total time
+  - Uses a 2D array where the first value is binSearch and the second is linSearch
+  - Target location: not in array
+  - They noticed that Task Manager spikes during the initial power up of the program, but decreases afterwards

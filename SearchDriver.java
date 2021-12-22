@@ -27,7 +27,7 @@ public class SearchDriver {
       System.out.println("Ignore this trial");
       Comparable[] ArrTrash = new Comparable[10];
       for (int i = 0; i < 10; i++) { //create and fills an array with 100,000 consecutive integers
-          Arr0[i] = i;
+          ArrTrash[i] = i;
       }
 
       System.out.println("Length of Array: 10 ");
