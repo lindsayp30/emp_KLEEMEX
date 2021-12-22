@@ -1,29 +1,33 @@
 Kleemex -- Lindsay Phung, May Qiu, Xinqing Lin
 APCS
 L03: Get Empirical / notes
-2021-12-20
+2021-12-21
 
-EMPIRICAL:
-- numerical
+DISCO
+  EMPIRICAL: based on factual data, numbers
 
-Ideas to Test Which is Faster: BinSearch or LinSearch
-- Count the number of steps each method takes
-- Measure it amount of time it takes for the method to run via currentTimeMillis
+  Ideas to Test Which is Faster: BinSearch or LinSearch
+  - Count the number of steps each method takes
+  - Measure it amount of time it takes for the method to run via currentTimeMillis
 
-ESSENTIAL TO REMEMBER:
-- REPETITION
-- measure time via currentTimeMillis
+  ESSENTIAL TO REMEMBER:
+  - REPETITION
+  - measure time via currentTimeMillis
 
-N: Unnecessary code can make the run time longer.
+  N: Unnecessary code can make the run time longer.
 
-PIAZZA:
-- to make large numbers more readable: utilize underscores
-  - example: 1_000_000
+  PIAZZA:
+  - to make large numbers more readable: utilize underscores
+    - example: 1_000_000
 
-Suggestion from Kosta:
-- Utilize a for loop in our main method to efficiently conduct many trials.
+  Suggestion from Kosta:
+  - Utilize a for loop in our main method to efficiently conduct many trials.
 
-N: BinSearch is very fast. The work-around around the 0ms results is to find the elapsed time of many trials.
+  N: BinSearch is very fast. The work-around around the 0ms results is to find the elapsed time of many trials.
+
+QCC
+-
+
 
 GALLERY TOUR:
 - Team Frogs
@@ -41,3 +45,18 @@ GALLERY TOUR:
   - Uses a 2D array where the first value is binSearch and the second is linSearch
   - Target location: not in array
   - They noticed that Task Manager spikes during the initial power up of the program, but decreases afterwards
+
+- Team Java Coffee
+  - Print statements in the line and the following line such as to eliminate ms in the first test run. Putting the print statements as such would disregard the time spent when the code runs the print statements
+  - Mentions that with smaller sized arrays, the time difference between linear and binary search is practically "the same" -- 0 ms when 0.00000000000000000000001 and 0.0000000000000000000000000000000000000001
+
+- Team BlueSteaks
+  - Utilized 2D arrays to print out table to show findings
+  - Had 9 sized arrays which were tested 10,000 times
+  - Reasoning for varying binary search ms result was external complications
+
+- Team LYJ
+  - Had 1,000 Trials
+  - Had 3 sized arrays (10, 1_000_000, 10_000_000)
+  - Better measured their time via DOUBLE
+  - Did both worst and random cases

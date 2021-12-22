@@ -31,15 +31,15 @@ public class SearchDriver {
       }
 
       System.out.println("Length of Array: 10 ");
-      System.out.println("Amount of Time it Takes to Run 500 Trials: Worse Case Scenario");
-      System.out.print("LinSearch (Last Index)... ");
+      System.out.println("Amount of Time it Takes to Run 500 Trials: Worst Case Scenario");
+      System.out.print("LinSearch (Target Location: Not in Array)... ");
 
-      long Lin10 = testLinSearch(ArrTrash, 9);
+      long Lin10 = testLinSearch(ArrTrash, 10);
       System.out.println(Lin10);
 
-      System.out.print("BinSearch (Last Index)... ");
+      System.out.print("BinSearch (Target Location: Not in Array)... ");
 
-      long Bin10 = testBinSearch(ArrTrash, 9);
+      long Bin10 = testBinSearch(ArrTrash, 10);
       System.out.println(Bin10);
 
       System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
@@ -50,15 +50,15 @@ public class SearchDriver {
       }
 
       System.out.println("Length of Array: 1,000,000 ");
-      System.out.println("Amount of Time it Takes to Run 500 Trials: Worse Case Scenario");
-      System.out.print("LinSearch (Last Index)... ");
+      System.out.println("Amount of Time it Takes to Run 500 Trials: Worst Case Scenario");
+      System.out.print("LinSearch (Target Location: Not in Array)... ");
 
-      long Lin100k = testLinSearch(Arr0, 999_999);
+      long Lin100k = testLinSearch(Arr0, 1_000_000);
       System.out.println(Lin100k);
 
-      System.out.print("BinSearch (Last Index)... ");
+      System.out.print("BinSearch (Target Location: Not in Array)... ");
 
-      long Bin100k = testBinSearch(Arr0, 999_999);
+      long Bin100k = testBinSearch(Arr0, 1_000_000);
       System.out.println(Bin100k);
 
       System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
@@ -69,15 +69,15 @@ public class SearchDriver {
       }
 
       System.out.println("Length of Array: 10,000,000 ");
-      System.out.println("Amount of Time it Takes to Run 500 Trials: Worse Case Scenario");
-      System.out.print("LinSearch (Last Index)... ");
+      System.out.println("Amount of Time it Takes to Run 500 Trials: Worst Case Scenario");
+      System.out.print("LinSearch (Target Location: Not in Array)... ");
 
-      long Lin10mil = testLinSearch(Arr1, 9_999_999);
+      long Lin10mil = testLinSearch(Arr1, 10_000_000);
       System.out.println(Lin10mil);
 
-      System.out.print("BinSearch (Last Index)... ");
+      System.out.print("BinSearch (Target Location: Not in Array)... ");
 
-      long Bin10mil = testBinSearch(Arr1, 9_999_999);
+      long Bin10mil = testBinSearch(Arr1, 10_000_000);
       System.out.println(Bin10mil);
 
       System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
@@ -88,15 +88,15 @@ public class SearchDriver {
       }
 
       System.out.println("Length of Array: 25,000,000 ");
-      System.out.println("Amount of Time it Takes to Run 500 Trials: Worse Case Scenario");
-      System.out.print("LinSearch (Last Index)... ");
+      System.out.println("Amount of Time it Takes to Run 500 Trials: Worst Case Scenario");
+      System.out.print("LinSearch (Target Location: Not in Array)... ");
 
-      long Lin25mil = testLinSearch(Arr2, 24_999_999);
+      long Lin25mil = testLinSearch(Arr2, 25_000_000);
       System.out.println(Lin25mil);
 
-      System.out.print("BinSearch (Last Index)... ");
+      System.out.print("BinSearch (Target Location: Not in Array)... ");
 
-      long Bin25mil = testBinSearch(Arr2, 24_999_999);
+      long Bin25mil = testBinSearch(Arr2, 25_000_000);
       System.out.println(Bin25mil);
 
       System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
@@ -107,19 +107,18 @@ public class SearchDriver {
       }
 
       System.out.println("Length of Array: 50,000,000 ");
-      System.out.println("Amount of Time it Takes to Run 500 Trials: Worse Case Scenario");
-      System.out.print("LinSearch (Last Index)... ");
+      System.out.println("Amount of Time it Takes to Run 500 Trials: Worst Case Scenario");
+      System.out.print("LinSearch (Target Location: Not in Array)... ");
 
-      long Lin50mil = testLinSearch(Arr3, 49_999_999);
+      long Lin50mil = testLinSearch(Arr3, 50_000_000);
       System.out.println(Lin50mil);
 
-      System.out.print("BinSearch (Last Index)... ");
+      System.out.print("BinSearch (Target Location: Not in Array)... ");
 
-      long Bin50mil = testBinSearch(Arr3, 49_999_999);
+      long Bin50mil = testBinSearch(Arr3, 50_000_000);
       System.out.println(Bin50mil);
 
       System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-
 
   }
 

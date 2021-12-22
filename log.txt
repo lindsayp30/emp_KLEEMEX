@@ -1,7 +1,7 @@
 Kleemex -- Lindsay Phung, May Qiu, Xinqing Lin
 APCS
 L03: Get Empirical / log
-2021-12-20
+2021-12-21
 
 Thurs 12/16/2021 in Class
 - Mostly discussion to clear up misconceptions and get on the right path
@@ -34,4 +34,10 @@ Mon 12/20/2021 at Home
 - Cleaned up / wrote in README.md, notes.txt, log.txt, and plan.txt
 
 Tues 12/21/2021 in Class
-- Decided to include a trial in the beginning of our code to be ignored as a workaround to the initial lag problem
+- Did a gallery tour (summarized in notes.txt)
+  - Took inspiration from what other groups were doing
+- Added a trial in the beginning of the code to be ignored as a workaround to the initial lag problem
+
+Tues 12/21/2021 at Home
+- We changed the location of the target to be not in the array
+- Updated our README.md accordingly
